@@ -1,0 +1,41 @@
+/* YOUR CUSTOM CSS */
+.cbJeu{ font-weight: bold ; font-size: 1.2em ; color:#000; }
+.cbJeuDetail{ font-weight: bold ; font-size: 1.5em ; color:#000; }
+#filtresPerso { font-weight: bold ; font-size: 1em ; color:#000;  margin:auto; text-align: center;}
+.retardFinal{ font-weight: bold !important ;  color:crimson !important ;}
+
+
+/* unvisited link */
+a.libelleJeu:link {
+  color: #494949;
+     font-weight: bold;
+}
+
+/* visited link */
+a.libelleJeu:visited {
+  color: #494949;
+     font-weight: bold;
+}
+
+/* mouse over link */
+a.libelleJeu:hover {
+  color: #1c77fb;
+    font-weight: bold;
+    
+}
+
+
+.navbar,
+body.fixed-nav {
+    padding:0 !important;
+}
+
+.ml-auto,
+.navbar-brand {
+    display:none !important;
+}
+
+.navbar-sidenav {
+    height: calc(100vh - 49px) !important;
+    margin: 0 !important;
+}
