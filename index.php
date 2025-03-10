@@ -281,7 +281,7 @@ try {
             <div class="container margin_120_95 ">
 
                 <div class="main_title">
-                    <h2 style="color:#FFF;margin-bottom:14px">Revivez le Spin off de l'édition 2024</h2>
+                    <h2 style="color:#FFF;margin-bottom:14px">Revivez le spin off de l'édition 2024 !</h2>
                     <iframe width="900" height="500" src="https://www.youtube.com/embed/Vp8QarlKY-I?si=J852oiyB0lXOnuf6"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
