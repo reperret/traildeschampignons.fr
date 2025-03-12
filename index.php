@@ -23,172 +23,172 @@ try {
 
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Trail des Champignons - Participer au trail en Ardèche</title>
-    <meta name="description"
-        content="Inscrivez-vous dès maintenant au Trail des Champignons en Ardèche. Rejoignez-nous pour une aventure sportive et conviviale à travers des sentiers escarpés et des panoramas exceptionnels.">
-    <meta name="keywords"
-        content="inscriptionTrail des Champignons, trail Ardèche inscription, course nature Ardèche, participer trail Ardèche">
-    <meta name="author" content="Trail des Champignons">
-    <link rel="canonical" href="https://traildeschampignons.fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Trail des Champignons - Participer au trail en Ardèche</title>
+        <meta name="description"
+            content="Inscrivez-vous dès maintenant au Trail des Champignons en Ardèche. Rejoignez-nous pour une aventure sportive et conviviale à travers des sentiers escarpés et des panoramas exceptionnels.">
+        <meta name="keywords"
+            content="inscriptionTrail des Champignons, trail Ardèche inscription, course nature Ardèche, participer trail Ardèche">
+        <meta name="author" content="Trail des Champignons">
+        <link rel="canonical" href="https://traildeschampignons.fr">
 
-    <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-        href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-        href="img/apple-touch-icon-144x144-precomposed.png">
+        <!-- Favicons-->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+        <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
+            href="img/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
+            href="img/apple-touch-icon-144x144-precomposed.png">
 
-    <!-- GOOGLE WEB FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
-
-
-
-    <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/vendors.css" rel="stylesheet">
-    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
-
-    <!-- REVOLUTION STYLE SHEETS -->
-    <link href="rev-slider-files/css/settings.css" rel="stylesheet">
-
-    <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <style>
-    .btn-marron {
-        background-color: #69381C !important;
-        color: white !important;
-        border: 2px solid #4f2b18 !important;
-        /* Ajoute une bordure marron foncé */
-        border-radius: 50px;
-        font-weight: bold;
-        animation: clignote 1s infinite;
-    }
-
-    @keyframes clignote {
-        0% {
-            opacity: 1;
-        }
-
-        50% {
-            opacity: 0.5;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-
-    .progress {
-        height: 30px;
-        background-color: #f3f3f3;
-        border-radius: 25px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        margin-bottom: 20px;
-    }
+        <!-- GOOGLE WEB FONT -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 
 
 
-    .progress-bar {
-        height: 100%;
-        line-height: 30px;
-        color: #fff;
-        font-weight: bold;
-        transition: width 0.6s ease;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: linear-gradient(45deg, #4caf50, #81c784);
-    }
-    </style>
+        <!-- BASE CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/vendors.css" rel="stylesheet">
+        <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
 
-</head>
+        <!-- REVOLUTION STYLE SHEETS -->
+        <link href="rev-slider-files/css/settings.css" rel="stylesheet">
 
-<body>
+        <!-- YOUR CUSTOM CSS -->
+        <link href="css/custom.css" rel="stylesheet">
 
-    <div class="layer"></div>
-    <!-- Mobile menu overlay mask -->
+        <style>
+            .btn-marron {
+                background-color: #69381C !important;
+                color: white !important;
+                border: 2px solid #4f2b18 !important;
+                /* Ajoute une bordure marron foncé */
+                border-radius: 50px;
+                font-weight: bold;
+                animation: clignote 1s infinite;
+            }
 
-    <div id="preloader">
-        <div data-loader="circle-side"></div>
-    </div>
-    <!-- End Preload -->
+            @keyframes clignote {
+                0% {
+                    opacity: 1;
+                }
 
-    <?php include "header.php"; ?>
+                50% {
+                    opacity: 0.5;
+                }
 
-    <?php
+                100% {
+                    opacity: 1;
+                }
+            }
+
+
+            .progress {
+                height: 30px;
+                background-color: #f3f3f3;
+                border-radius: 25px;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+
+
+
+            .progress-bar {
+                height: 100%;
+                line-height: 30px;
+                color: #fff;
+                font-weight: bold;
+                transition: width 0.6s ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-image: linear-gradient(45deg, #4caf50, #81c784);
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="layer"></div>
+        <!-- Mobile menu overlay mask -->
+
+        <div id="preloader">
+            <div data-loader="circle-side"></div>
+        </div>
+        <!-- End Preload -->
+
+        <?php include "header.php"; ?>
+
+        <?php
         $date = new DateTime();
         $start = new DateTime('2024-11-02 06:00:00');
         $end = new DateTime('2025-02-03 20:00:00');
 
         if ($date >= $start && $date <= $end) {
         ?>
-    <!-- Message manuscrit et boutons "Résultats", "Photos", "Vidéo" -->
-    <div style="background-color: #69381C; text-align: center; padding: 20px;">
+            <!-- Message manuscrit et boutons "Résultats", "Photos", "Vidéo" -->
+            <div style="background-color: #69381C; text-align: center; padding: 20px;">
 
-        <div class="main_title">
-            <h2 style="color:#FFF;margin-bottom:14px">Merci à tous pour cette édition 2024, à l'année prochaine !</h2>
-        </div>
-        <a href="https://altichrono.fr/resultats/2024_champignons/" target="_blank" class="btn btn-lg btn-marron">
-            Résultats
-        </a>
-        <a href="https://photos.app.goo.gl/7QDrX1vLVPGPAN3o7" target="_blank" class="btn btn-lg btn-marron">
-            Photos
-        </a>
-        <a href="https://www.youtube.com/watch?v=Vp8QarlKY-I" target="_blank" class="btn btn-lg btn-marron">
-            Vidéo
-        </a>
-    </div>
-    <?php
+                <div class="main_title">
+                    <h2 style="color:#FFF;margin-bottom:14px">Merci à tous pour cette édition 2024, à l'année prochaine !</h2>
+                </div>
+                <a href="https://altichrono.fr/resultats/2024_champignons/" target="_blank" class="btn btn-lg btn-marron">
+                    Résultats
+                </a>
+                <a href="https://photos.app.goo.gl/7QDrX1vLVPGPAN3o7" target="_blank" class="btn btn-lg btn-marron">
+                    Photos
+                </a>
+                <a href="https://www.youtube.com/watch?v=Vp8QarlKY-I" target="_blank" class="btn btn-lg btn-marron">
+                    Vidéo
+                </a>
+            </div>
+        <?php
         }
         ?>
 
 
-    <main>
-        <div id="rev_slider_72_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
-            data-alias="doctor_slider_1" data-source="gallery"
-            style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-            <div id="rev_slider_72_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
-                <ul>
-                    <!-- SLIDE  -->
-                    <li data-index="rs-188" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="assets/100x50_b9dee-42512210_ml.jpg" data-delay="5150"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="rev-slider-files/assets/b9dee-42512210_ml.jpg" alt="" data-bgposition="center center"
-                            data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
-                            data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0"
-                            data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
-                            data-no-retina>
-                        <!-- LAYERS -->
+        <main>
+            <div id="rev_slider_72_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
+                data-alias="doctor_slider_1" data-source="gallery"
+                style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+                <div id="rev_slider_72_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
+                    <ul>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-188" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default" data-easeout="default"
+                            data-masterspeed="default" data-thumb="assets/100x50_b9dee-42512210_ml.jpg" data-delay="5150"
+                            data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                            data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                            data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="rev-slider-files/assets/b9dee-42512210_ml.jpg" alt="" data-bgposition="center center"
+                                data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
+                                data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0"
+                                data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
+                                data-no-retina>
+                            <!-- LAYERS -->
 
-                        <!-- LAYER NR. 1 -->
-
-
+                            <!-- LAYER NR. 1 -->
 
 
-                        <div class="tp-caption tp-resizeme" id="slide-188-layer-1" data-x="111" data-y="259"
-                            data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":510,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"+3260","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5; white-space: nowrap; font-size: 60px; 
+
+
+                            <div class="tp-caption tp-resizeme" id="slide-188-layer-1" data-x="111" data-y="259"
+                                data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
+                                data-frames='[{"delay":510,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"+3260","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                                style="z-index: 5; white-space: nowrap; font-size: 60px; 
                         text-shadow:
                         -4px -4px 0 #704124,
                         4px -4px 0 #704124,
@@ -199,17 +199,17 @@ try {
             
             font-family:Poppins; text-transform:uppercase;
             background-color:rgba(0, 122, 255, 0);">
-                            <div>2 NOVEMBRE 2024</div>
-                            <div style="margin-top: 20px;">1ère EDITION</div>
-                            <div style="margin-top: 20px;">AVEC L'AUTOMNAL GOURMAND</div>
-                        </div>
+                                <div>2 NOVEMBRE 2024</div>
+                                <div style="margin-top: 20px;">1ère EDITION</div>
+                                <div style="margin-top: 20px;">AVEC L'AUTOMNAL GOURMAND</div>
+                            </div>
 
-                        <div class="tp-caption tp-resizeme" id="slide-188-layer-2" data-x="111" data-y="259"
-                            data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":5000,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"+3260","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5; white-space: nowrap; font-size: 60px; 
+                            <div class="tp-caption tp-resizeme" id="slide-188-layer-2" data-x="111" data-y="259"
+                                data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
+                                data-frames='[{"delay":5000,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"+3260","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                                style="z-index: 5; white-space: nowrap; font-size: 60px; 
                           text-shadow:
         -3px -3px 0 #704124,  
         -3px  3px 0 #704124,
@@ -223,77 +223,77 @@ try {
             font-weight: 700; color: #FFF; 
             font-family:Poppins; text-transform:uppercase;
             background-color:rgba(0, 122, 255, 0);">
-                            <div>2 NOVEMBRE 2024</div>
-                            <div style="margin-top: 20px;">1ère EDITION</div>
-                            <div style="margin-top: 20px;">AVEC L'AUTOMNAL GOURMAND</div>
-                        </div>
+                                <div>2 NOVEMBRE 2024</div>
+                                <div style="margin-top: 20px;">1ère EDITION</div>
+                                <div style="margin-top: 20px;">AVEC L'AUTOMNAL GOURMAND</div>
+                            </div>
 
 
 
 
 
-                    </li>
-                    <!-- SLIDE  -->
-                    <li data-index="rs-189" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="assets/100x50_4e36b-42512211_ml.jpg" data-delay="5150"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="rev-slider-files/assets/4e36b-42512211_ml.jpg" alt="" data-bgposition="center center"
-                            data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
-                            data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0"
-                            data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
-                            data-no-retina>
-                        <!-- LAYERS -->
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-189" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default" data-easeout="default"
+                            data-masterspeed="default" data-thumb="assets/100x50_4e36b-42512211_ml.jpg" data-delay="5150"
+                            data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                            data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                            data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="rev-slider-files/assets/4e36b-42512211_ml.jpg" alt="" data-bgposition="center center"
+                                data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
+                                data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0"
+                                data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
+                                data-no-retina>
+                            <!-- LAYERS -->
 
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-189-layer-1" data-x="161" data-y="center"
-                            data-voffset="-31" data-width="['auto']" data-height="['auto']" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":520,"speed":800,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+3160","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 22px; font-weight: 700; color: #4f3b1c;font-family:Poppins;text-transform:uppercase;">
-                        </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption   tp-resizeme" id="slide-189-layer-1" data-x="161" data-y="center"
+                                data-voffset="-31" data-width="['auto']" data-height="['auto']" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":520,"speed":800,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+3160","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                                style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 22px; font-weight: 700; color: #4f3b1c;font-family:Poppins;text-transform:uppercase;">
+                            </div>
 
-                        <!-- LAYER NR. 4 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-189-layer-2" data-x="165" data-y="318"
-                            data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":1080,"speed":800,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+2800","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6; white-space: nowrap; font-size: 52px; line-height: 22px; font-weight: 700; color: #4f3b1c;font-family:Poppins;text-transform:uppercase;">
-                        </div>
-                    </li>
-                    <!-- SLIDE  -->
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption   tp-resizeme" id="slide-189-layer-2" data-x="165" data-y="318"
+                                data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
+                                data-frames='[{"delay":1080,"speed":800,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+2800","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                                style="z-index: 6; white-space: nowrap; font-size: 52px; line-height: 22px; font-weight: 700; color: #4f3b1c;font-family:Poppins;text-transform:uppercase;">
+                            </div>
+                        </li>
+                        <!-- SLIDE  -->
 
-                </ul>
-                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-            </div>
-        </div>
-        <!-- /REVOLUTION SLIDER -->
-
-
-        <div class="bg_color_marron">
-
-            <div class="container margin_120_95 ">
-
-                <div class="main_title">
-                    <h2 style="color:#FFF;margin-bottom:14px">Revivez le spin off de l'édition 2024 !</h2>
-                    <iframe width="900" height="500" src="https://www.youtube.com/embed/Vp8QarlKY-I?si=J852oiyB0lXOnuf6"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </ul>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
                 </div>
-
-
             </div>
-            <!-- /carousel -->
-        </div>
+            <!-- /REVOLUTION SLIDER -->
 
-        <!--
+
+            <div class="bg_color_marron">
+
+                <div class="container margin_120_95 ">
+
+                    <div class="main_title">
+                        <h2 style="color:#FFF;margin-bottom:14px">Revivez le spin off de l'édition 2024</h2>
+                        <iframe width="900" height="500" src="https://www.youtube.com/embed/Vp8QarlKY-I?si=J852oiyB0lXOnuf6"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+
+                </div>
+                <!-- /carousel -->
+            </div>
+
+            <!--
 
     <div class="container" style="margin-top: 30px;">
         <div class="row">
@@ -320,7 +320,7 @@ try {
 
 
 
-        <!-- 
+            <!-- 
             <div style="background-color: orange; text-align: center; padding: 20px;">
                 <p style="color: white; font-size: 20px; margin: 0;">Vérifiez ou complétez votre inscription (certificat
                     médical/PPS)</p>
@@ -329,98 +329,98 @@ try {
            -->
 
 
-        <div class="bg_color_1">
-            <div class="container margin_120_95">
-                <div class="main_title">
-                    <h1><strong>2 novembre 2024</strong> - Saint André En Vivarais</h1>
-                    <h2>Deux courses en <span class="highlight">Duo</span></h2>
-                    <!--                      <a href="inscriptions.php" target="_blank" class="btn_1">S'inscrire</a>-->
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-lg-6">
-                        <figure class="add_bottom_30">
-                            <img src="img/about_1.jpg" class="img-fluid" alt="">
-                        </figure>
+            <div class="bg_color_1">
+                <div class="container margin_120_95">
+                    <div class="main_title">
+                        <h1><strong>2 novembre 2024</strong> - Saint André En Vivarais</h1>
+                        <h2>Deux courses en <span class="highlight">Duo</span></h2>
+                        <!--                      <a href="inscriptions.php" target="_blank" class="btn_1">S'inscrire</a>-->
                     </div>
-                    <div class="col-lg-6 text-justify">
-                        <h4>Bienvenue sur le site officiel du TRAIL DES CHAMPIGNONS !</h4>
-                        <br />
-                        <p>Vous êtes à la recherche d’une aventure alliant <b>SPORT, NATURE, ET CONVIVIALITE ?</b></p>
-                        <p>Cette année, venez découvrir nos deux parcours emblématiques !</p>
-                        <p><b>LE CEPE (35 KM)</b> et <b>LA GIROLLE (15 KM)</b>, à réaliser en duo au cœur de sentiers
-                            escarpés, de panoramas à couper le souffle et d’une halte aux ravitos gourmands.</p>
-
-                        <p><b>LA RANDO MORILLE (10 KM)</b> comme son nom l'indique est un parcours à faire en randonnée,
-                            non chronométré, en famille par exemple.</p>
-
-
-                        <p>Vous souhaitez avoir une <b>RECUPERATION DE QUALITE, FESTIVE ET CHALEUREUSE</b> ?</p>
-                        <p>Poursuivez votre aventure lors de <b>LA FOIRE AUX CHAMPIGNONS</b> organisée à Saint Bonnet le
-                            Froid à l’occasion de l’Automnal Gourmand et découvrez les spécialités culinaires locales !
-                        </p>
-                        <p>Alors, que vous soyez coureurs expérimentés ou amateurs de nature, ce trail est fait pour
-                            vous !</p>
-                        <p><b> PRETS A LIER AMITIE, EFFORT,NATURE et GOURMANDISE?</b></p>
-                        <p><a href="inscriptions.php">Inscrivez-vous dès maintenant au Trail des Champignons</a> et
-                            venez célébrer avec nous l'esprit d'équipe au sein de l'incroyable beauté ardéchoise !
-                        <p>
-                    </div>
-                </div>
-                <!--/row-->
-            </div>
-            <!--/container-->
-        </div>
-
-
-        <div class="bg_color_beige">
-            <div class="container margin_120_95">
-
-                <div class="main_title">
-                    <h2>Infos essentielles</h2>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="box_faq">
-                            <i class="icon_pin_alt"></i>
-                            <h4>Où</h4>
-                            <p>A <a href="https://www.google.com/maps?q=45.12068607631963,4.4124457850904495"
-                                    target="_blank">Saint-André-en-Vivarais</a>, en Ardèche </p>
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6">
+                            <figure class="add_bottom_30">
+                                <img src="img/about_1.jpg" class="img-fluid" alt="">
+                            </figure>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="box_faq">
-                            <i class="icon_info_alt"></i>
-                            <h4>Quoi ?</h4>
-                            <p>Trail en Duo, avec plusieurs parcours : <?php echo getAffichageQuoiAccueil($dbh); ?></p>
-                        </div>
-                    </div>
-                </div><!-- /row  -->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="box_faq">
-                            <i class="icon_calendar"></i>
-                            <h4>Quand ?</h4>
-                            <p>
-                                2 novembre 2024
-                                <br>
-                                <?php echo getAffichageQuandAccueil($dbh); ?>
+                        <div class="col-lg-6 text-justify">
+                            <h4>Bienvenue sur le site officiel du TRAIL DES CHAMPIGNONS !</h4>
+                            <br />
+                            <p>Vous êtes à la recherche d’une aventure alliant <b>SPORT, NATURE, ET CONVIVIALITE ?</b></p>
+                            <p>Cette année, venez découvrir nos deux parcours emblématiques !</p>
+                            <p><b>LE CEPE (35 KM)</b> et <b>LA GIROLLE (15 KM)</b>, à réaliser en duo au cœur de sentiers
+                                escarpés, de panoramas à couper le souffle et d’une halte aux ravitos gourmands.</p>
+
+                            <p><b>LA RANDO MORILLE (10 KM)</b> comme son nom l'indique est un parcours à faire en randonnée,
+                                non chronométré, en famille par exemple.</p>
+
+
+                            <p>Vous souhaitez avoir une <b>RECUPERATION DE QUALITE, FESTIVE ET CHALEUREUSE</b> ?</p>
+                            <p>Poursuivez votre aventure lors de <b>LA FOIRE AUX CHAMPIGNONS</b> organisée à Saint Bonnet le
+                                Froid à l’occasion de l’Automnal Gourmand et découvrez les spécialités culinaires locales !
                             </p>
-
+                            <p>Alors, que vous soyez coureurs expérimentés ou amateurs de nature, ce trail est fait pour
+                                vous !</p>
+                            <p><b> PRETS A LIER AMITIE, EFFORT,NATURE et GOURMANDISE?</b></p>
+                            <p><a href="inscriptions.php">Inscrivez-vous dès maintenant au Trail des Champignons</a> et
+                                venez célébrer avec nous l'esprit d'équipe au sein de l'incroyable beauté ardéchoise !
+                            <p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="box_faq">
-                            <i class="icon_target"></i>
-                            <h4>Comment ?</h4>
-                            <p><a href="inscriptions.php">Inscriptions en ligne</a> et toutes les informations la
-                                rubrique Infos pratiques</p>
-                        </div>
-                    </div>
-                </div><!-- /row  -->
+                    <!--/row-->
+                </div>
+                <!--/container-->
             </div>
-        </div>
+
+
+            <div class="bg_color_beige">
+                <div class="container margin_120_95">
+
+                    <div class="main_title">
+                        <h2>Infos essentielles</h2>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box_faq">
+                                <i class="icon_pin_alt"></i>
+                                <h4>Où</h4>
+                                <p>A <a href="https://www.google.com/maps?q=45.12068607631963,4.4124457850904495"
+                                        target="_blank">Saint-André-en-Vivarais</a>, en Ardèche </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box_faq">
+                                <i class="icon_info_alt"></i>
+                                <h4>Quoi ?</h4>
+                                <p>Trail en Duo, avec plusieurs parcours : <?php echo getAffichageQuoiAccueil($dbh); ?></p>
+                            </div>
+                        </div>
+                    </div><!-- /row  -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box_faq">
+                                <i class="icon_calendar"></i>
+                                <h4>Quand ?</h4>
+                                <p>
+                                    2 novembre 2024
+                                    <br>
+                                    <?php echo getAffichageQuandAccueil($dbh); ?>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box_faq">
+                                <i class="icon_target"></i>
+                                <h4>Comment ?</h4>
+                                <p><a href="inscriptions.php">Inscriptions en ligne</a> et toutes les informations la
+                                    rubrique Infos pratiques</p>
+                            </div>
+                        </div>
+                    </div><!-- /row  -->
+                </div>
+            </div>
 
 
 
@@ -429,16 +429,16 @@ try {
 
 
 
-        <!-- /container -->
-        </div>
-        <!-- /white_bg -->
+            <!-- /container -->
+            </div>
+            <!-- /white_bg -->
 
 
 
 
 
 
-        <!--
+            <!--
 
         <div class="container margin_120_95">
             <div class="main_title">
@@ -502,7 +502,7 @@ try {
 
 
 
-        <!--  <div class="container margin_120_95">
+            <!--  <div class="container margin_120_95">
             <div class="main_title">
                 <h2>Le Trail des <strong>Champignons</strong>, miam !</h2>
                 <p>C'est là course où t'as juste envie de te faire une omelette aux champis, mettre tes tatanes et terminé bonsoir !</p>
@@ -534,10 +534,10 @@ try {
             <p class="text-center"><a href="inscription.php" class="btn_1 medium">S'inscrire</a></p>
 
         </div>-->
-        <!-- /container -->
+            <!-- /container -->
 
 
-        <!--
+            <!--
         <div id="app_section">
             <div class="container">
                 <div class="row justify-content-around">
@@ -568,7 +568,7 @@ try {
     <!-- /main content -
 
 -->
-        <!--
+            <!--
         <footer>
             <div class="container margin_60_35">
                 <div class="row">
@@ -638,161 +638,161 @@ try {
 
 
 
-        <div class="bg_color_1">
-            <div class="container margin_120_95">
+            <div class="bg_color_1">
+                <div class="container margin_120_95">
 
-                <div class="main_title">
-                    <h2>En partenariat avec</h2>
+                    <div class="main_title">
+                        <h2>En partenariat avec</h2>
 
-                </div>
+                    </div>
 
-                <div id="reccomended" class="owl-carousel owl-theme">
+                    <div id="reccomended" class="owl-carousel owl-theme">
 
 
-                    <?php
+                        <?php
                         $listingPartenaires = getPartenaires($dbh);
 
                         // Affichage des partenaires par catégorie
                         foreach ($listingPartenaires as $partenaire) {
                         ?>
-                    <div class="item">
-                        <div class="title">
-                            <a href="<?php echo htmlspecialchars($partenaire['lienPartenaire']); ?>" target="_blank">
-                                <h4><?php echo htmlspecialchars($partenaire['libellePartenaire']); ?></h4>
-                            </a>
-                        </div>
-                        <a href="<?php echo htmlspecialchars($partenaire['lienPartenaire']); ?>" target="_blank">
-                            <img src="img/logosPartenaires/<?php echo htmlspecialchars($partenaire['logoPartenaire']); ?>"
-                                alt="">
-                        </a>
-                    </div>
-                    <?php
+                            <div class="item">
+                                <div class="title">
+                                    <a href="<?php echo htmlspecialchars($partenaire['lienPartenaire']); ?>" target="_blank">
+                                        <h4><?php echo htmlspecialchars($partenaire['libellePartenaire']); ?></h4>
+                                    </a>
+                                </div>
+                                <a href="<?php echo htmlspecialchars($partenaire['lienPartenaire']); ?>" target="_blank">
+                                    <img src="img/logosPartenaires/<?php echo htmlspecialchars($partenaire['logoPartenaire']); ?>"
+                                        alt="">
+                                </a>
+                            </div>
+                        <?php
                         }
                         ?>
 
 
 
+                    </div>
+                    <!-- /carousel -->
                 </div>
-                <!-- /carousel -->
+                <!-- /container -->
             </div>
-            <!-- /container -->
-        </div>
-        <!-- /white_bg -->
+            <!-- /white_bg -->
 
 
 
-        <?php include 'footer.php'; ?>
+            <?php include 'footer.php'; ?>
 
-        <div id="toTop"></div>
-        <!-- Back to top button -->
+            <div id="toTop"></div>
+            <!-- Back to top button -->
 
-        <!-- COMMON SCRIPTS -->
-        <script src="js/jquery-2.2.4.min.js"></script>
-        <script src="js/common_scripts.min.js"></script>
-        <script src="js/functions.js"></script>
+            <!-- COMMON SCRIPTS -->
+            <script src="js/jquery-2.2.4.min.js"></script>
+            <script src="js/common_scripts.min.js"></script>
+            <script src="js/functions.js"></script>
 
-        <!-- REVOLUTION SLIDER SCRIPTS -->
-        <script type="text/javascript" src="rev-slider-files/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="rev-slider-files/js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.actions.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.carousel.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.kenburn.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.layeranimation.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.migration.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.navigation.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.parallax.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.slideanims.min.js">
-        </script>
-        <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.video.min.js"></script>
-        <script type="text/javascript">
-        var tpj = jQuery;
-        var revapi72;
-        tpj(document).ready(function() {
-            if (tpj("#rev_slider_72_1").revolution == undefined) {
-                revslider_showDoubleJqueryError("#rev_slider_72_1");
-            } else {
-                revapi72 = tpj("#rev_slider_72_1").show().revolution({
-                    sliderType: "standard",
-                    jsFileLocation: "rev-slider-files/js/",
-                    sliderLayout: "auto",
-                    dottedOverlay: "none",
-                    delay: 9000,
-                    navigation: {
-                        keyboardNavigation: "off",
-                        keyboard_direction: "horizontal",
-                        mouseScrollNavigation: "off",
-                        mouseScrollReverse: "default",
-                        onHoverStop: "off",
-                        touch: {
-                            touchenabled: "on",
-                            touchOnDesktop: "off",
-                            swipe_threshold: 75,
-                            swipe_min_touches: 1,
-                            swipe_direction: "horizontal",
-                            drag_block_vertical: false
-                        },
-                        arrows: {
-                            style: "gyges",
-                            enable: true,
-                            hide_onmobile: true,
-                            hide_under: 560,
-                            hide_onleave: true,
-                            hide_delay: 200,
-                            hide_delay_mobile: 1200,
-                            tmp: '',
-                            left: {
-                                h_align: "left",
-                                v_align: "center",
-                                h_offset: 20,
-                                v_offset: 0
+            <!-- REVOLUTION SLIDER SCRIPTS -->
+            <script type="text/javascript" src="rev-slider-files/js/jquery.themepunch.tools.min.js"></script>
+            <script type="text/javascript" src="rev-slider-files/js/jquery.themepunch.revolution.min.js"></script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.actions.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.carousel.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.kenburn.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.layeranimation.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.migration.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.navigation.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.parallax.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.slideanims.min.js">
+            </script>
+            <script type="text/javascript" src="rev-slider-files/js/extensions/revolution.extension.video.min.js"></script>
+            <script type="text/javascript">
+                var tpj = jQuery;
+                var revapi72;
+                tpj(document).ready(function() {
+                    if (tpj("#rev_slider_72_1").revolution == undefined) {
+                        revslider_showDoubleJqueryError("#rev_slider_72_1");
+                    } else {
+                        revapi72 = tpj("#rev_slider_72_1").show().revolution({
+                            sliderType: "standard",
+                            jsFileLocation: "rev-slider-files/js/",
+                            sliderLayout: "auto",
+                            dottedOverlay: "none",
+                            delay: 9000,
+                            navigation: {
+                                keyboardNavigation: "off",
+                                keyboard_direction: "horizontal",
+                                mouseScrollNavigation: "off",
+                                mouseScrollReverse: "default",
+                                onHoverStop: "off",
+                                touch: {
+                                    touchenabled: "on",
+                                    touchOnDesktop: "off",
+                                    swipe_threshold: 75,
+                                    swipe_min_touches: 1,
+                                    swipe_direction: "horizontal",
+                                    drag_block_vertical: false
+                                },
+                                arrows: {
+                                    style: "gyges",
+                                    enable: true,
+                                    hide_onmobile: true,
+                                    hide_under: 560,
+                                    hide_onleave: true,
+                                    hide_delay: 200,
+                                    hide_delay_mobile: 1200,
+                                    tmp: '',
+                                    left: {
+                                        h_align: "left",
+                                        v_align: "center",
+                                        h_offset: 20,
+                                        v_offset: 0
+                                    },
+                                    right: {
+                                        h_align: "right",
+                                        v_align: "center",
+                                        h_offset: 20,
+                                        v_offset: 0
+                                    }
+                                }
                             },
-                            right: {
-                                h_align: "right",
-                                v_align: "center",
-                                h_offset: 20,
-                                v_offset: 0
+                            visibilityLevels: [1240, 1024, 778, 480],
+                            gridwidth: 1240,
+                            gridheight: 600,
+                            lazyType: "none",
+                            shadow: 0,
+                            spinner: "spinner0",
+                            stopLoop: "off",
+                            stopAfterLoops: -1,
+                            stopAtSlide: -1,
+                            shuffle: "off",
+                            autoHeight: "off",
+                            disableProgressBar: "on",
+                            hideThumbsOnMobile: "off",
+                            hideSliderAtLimit: 0,
+                            hideCaptionAtLimit: 0,
+                            hideAllCaptionAtLilmit: 0,
+                            debugMode: false,
+                            fallbacks: {
+                                simplifyAll: "off",
+                                nextSlideOnWindowFocus: "off",
+                                disableFocusListener: false,
                             }
-                        }
-                    },
-                    visibilityLevels: [1240, 1024, 778, 480],
-                    gridwidth: 1240,
-                    gridheight: 600,
-                    lazyType: "none",
-                    shadow: 0,
-                    spinner: "spinner0",
-                    stopLoop: "off",
-                    stopAfterLoops: -1,
-                    stopAtSlide: -1,
-                    shuffle: "off",
-                    autoHeight: "off",
-                    disableProgressBar: "on",
-                    hideThumbsOnMobile: "off",
-                    hideSliderAtLimit: 0,
-                    hideCaptionAtLimit: 0,
-                    hideAllCaptionAtLilmit: 0,
-                    debugMode: false,
-                    fallbacks: {
-                        simplifyAll: "off",
-                        nextSlideOnWindowFocus: "off",
-                        disableFocusListener: false,
+                        });
                     }
-                });
-            }
-        }); /*ready*/
-        </script>
+                }); /*ready*/
+            </script>
 
 
 
-</body>
+    </body>
 
-</html>
+    </html>
 
 <?php
 } catch (Exception $e) {
