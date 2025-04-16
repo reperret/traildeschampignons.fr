@@ -170,12 +170,12 @@ try {
                     <!-- SLIDE  -->
                     <li data-index="rs-188" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                         data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="assets/100x50_b9dee-42512210_ml.jpg" data-delay="5150"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
+                        data-masterspeed="default" data-thumb="img/accueil/1.JPG" data-delay="5150" data-rotate="0"
+                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
+                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                        data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="img/accueil/1.jpg" alt="" data-bgposition="center center" data-kenburns="on"
+                        <img src="img/accueil/1.JPG" alt="" data-bgposition="center center" data-kenburns="on"
                             data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110"
                             data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0"
                             data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
@@ -233,10 +233,10 @@ try {
                     <!-- SLIDE  -->
                     <li data-index="rs-189" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0"
                         data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="assets/100x50_4e36b-42512211_ml.jpg" data-delay="5150"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
+                        data-masterspeed="default" data-thumb="img/accueil/2.JPG" data-delay="5150" data-rotate="0"
+                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
+                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                        data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="img/accueil/2.JPG" alt="" data-bgposition="center center" data-kenburns="on"
                             data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110"
