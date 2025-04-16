@@ -1,8 +1,17 @@
 <?php
 //*******************VARIABLES BDD**************************
+/*
 $serveur = "traildcbdd.mysql.db";
 $user = "traildcbdd";
 $pass = "HzRYCAzEA4VbyS7";
+$base = "traildcbdd";
+*/
+//**********************************************************
+
+//*******************VARIABLES BDD**************************
+$serveur = "localhost";
+$user = "root";
+$pass = "Deflagratione89!";
 $base = "traildcbdd";
 //**********************************************************
 

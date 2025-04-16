@@ -539,12 +539,7 @@ ul#top_access {
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-    #logo_home h1 a {
-        background-image: url(../img/logo_2x.png);
-        background-size: 163px 36px;
-    }
-}
+
 
 /* Footer */
 footer {
@@ -902,13 +897,13 @@ ul#additional_links {
             input[type="radio"] {
                 display: none;
 
-                &:checked + label,
-                &:checked + label:hover {
+                &:checked+label,
+                &:checked+label:hover {
                     background-color: $third-color;
                     color: #fff;
                 }
 
-                &:hover + label {
+                &:hover+label {
                     background-color: $secondary-color;
                     color: #fff;
                 }
@@ -1862,7 +1857,7 @@ a.wish_bt {
 .infoBox {
     padding-right: 50px !important;
 
-    > img {
+    >img {
         position: absolute !important;
         right: 60px !important;
         top: 10px !important;
@@ -2131,7 +2126,7 @@ a.wish_bt {
         border: 0;
         overflow: hidden;
 
-        &:checked + label {
+        &:checked+label {
             background-color: $primary-color;
             @include box-shadow (none);
             color: #fff;
@@ -2676,7 +2671,7 @@ ul {
                 display: none;
                 cursor: pointer;
 
-                &:checked + label {
+                &:checked+label {
                     background-color: #333;
                     color: #fff;
                 }
@@ -2734,7 +2729,7 @@ input[type=checkbox].css-checkbox {
     border: 0;
 }
 
-input[type=checkbox].css-checkbox + label.css-label {
+input[type=checkbox].css-checkbox+label.css-label {
     padding-left: 35px;
     height: 25px;
     display: inline-block;
@@ -2746,11 +2741,11 @@ input[type=checkbox].css-checkbox + label.css-label {
     @include transition-default (all, 0.3s, ease);
 }
 
-input[type=checkbox].css-checkbox:hover + label.css-label {
+input[type=checkbox].css-checkbox:hover+label.css-label {
     background-position: 0 -28px;
 }
 
-input[type=checkbox].css-checkbox:checked + label.css-label {
+input[type=checkbox].css-checkbox:checked+label.css-label {
     background-position: 0 -56px;
 }
 
@@ -3221,7 +3216,7 @@ a.social_bt {
         background: transparent;
     }
 
-    input[type=checkbox]:focus + label:before {
+    input[type=checkbox]:focus+label:before {
         @include rgba(bg, $secondary-color, 0.2);
     }
 
@@ -3243,7 +3238,7 @@ a.social_bt {
         width: 0;
         height: 0;
 
-        &:checked + label:after {
+        &:checked+label:after {
             opacity: 1;
         }
     }
@@ -3929,8 +3924,8 @@ ul.treatments.checkout {
 }
 
 .rating:hover .rating-star:hover,
-.rating:hover .rating-star:hover ~ .rating-star,
-.rating-input:checked ~ .rating-star {
+.rating:hover .rating-star:hover~.rating-star,
+.rating-input:checked~.rating-star {
     background-position: 0 0;
 }
 
@@ -4297,7 +4292,7 @@ a.box_feat_about {
         opacity: 0;
         cursor: pointer;
 
-        &:checked ~ .checkmark {
+        &:checked~.checkmark {
             background-color: $primary-color;
             border: 1px solid transparent;
         }
@@ -4330,7 +4325,7 @@ a.box_feat_about {
     }
 }
 
-.container_check input:checked ~ .checkmark:after {
+.container_check input:checked~.checkmark:after {
     display: block;
 }
 
